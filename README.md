@@ -1,6 +1,7 @@
 # Developing an ETL project with SSIS 
 
-##### Table of Contents  
+__Table of Contents__
+
 * [1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
 * [2. ETL Processing - Pipeline Design](#2.ETLProcessing-PipelineDesign)
   - [STA – Staging Database](##STA–StagingDatabase)
