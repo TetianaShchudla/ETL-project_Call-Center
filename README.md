@@ -18,13 +18,24 @@ programs to utilize them. Implementing a data warehouse is one approach to accom
 In this project, we are going to design and implement a Data Warehouse with calls data analysis of a 
 call center. For this, we will use SQL Server and SSIS. 
 
-__DATA - Description for Call Center Analysis Project__
+>__DATA - Description for Call Center Analysis Project__
 
 In our project we proceed with an analysis of call center operations, employee performance, call types, 
 and call charges. To facilitate this analysis, we have organized a structured dataset that encompasses 
 CSV files and lookup data, each with its specific role and relevance in uncovering insights and 
 optimizing call center activities. 
 
+___CSV Files (Data YYYY):___
+
+These CSV files contain comprehensive call data for each respective year. The columns within these 
+files provide critical information that forms the basis for our analysis. 
+
+__Lookup Data:__
+
+To enrich our analysis, we've included lookup data that pertains to employees and call types. These 
+datasets are useful to understand the workforce and categorizing call scenarios. 
+
+Employees 
 
 ## 2. ETL Processing - Pipeline Design
 
