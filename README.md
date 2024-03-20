@@ -18,6 +18,7 @@ programs to utilize them. Implementing a data warehouse is one approach to accom
 In this project, we are going to design and implement a Data Warehouse with calls data analysis of a 
 call center. For this, we will use SQL Server and SSIS. 
 
+______________________________
 >__DATA - Description for Call Center Analysis Project__
 
 In our project we proceed with an analysis of call center operations, employee performance, call types, 
