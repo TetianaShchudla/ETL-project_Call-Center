@@ -7,7 +7,7 @@ __Table of Contents__
   - [STA – Staging Database](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#sta--staging-database)
   - [ODS – Operational Data Store](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#ods--operational-data-store)
   - [DWH – Data WareHouse](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#dwh--data-warehouse)
-  - [ADM - Admin Database Management](##ADM-AdminDatabaseManagement)
+  - [ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
 * [3. Conclusion](#Conclusion)
 
 # 1. Introduction
