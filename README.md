@@ -3,7 +3,7 @@
 ##### Table of Contents  
 [1. Introduction](#Inroduction)  
 
-[2. ETL PROCESSING - PIPELINE DESIGN](#ETL PROCESSING - PIPELINE DESIGN)
+[2. ETL Processing - Pipeline Design](#2. ETL Processing - Pipeline Design)
 
 [STA – STAGING DATABASE](#STA – STAGING DATABASE)
 
