@@ -1,4 +1,4 @@
-# Developing an ETL project with SSIS 
+# Developing an ETL project with SSIS using Call Center Dataset
 
 __Table of Contents__
 
@@ -10,7 +10,7 @@ __Table of Contents__
   - [ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
 * [3. Conclusion](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#3-conclusion)
 
-# 1. Introduction
+## 1. Introduction
 
 Data must first be integrated into an IT system before it can be used and its value observed. This 
 implies that all data from multiple sources must be standardized and unified in order for other 
@@ -26,7 +26,7 @@ CSV files and lookup data, each with its specific role and relevance in uncoveri
 optimizing call center activities. 
 
 
-# 2. ETL Processing - Pipeline Design
+## 2. ETL Processing - Pipeline Design
 
 
 
@@ -38,20 +38,20 @@ optimizing call center activities.
 
 
 
-## ODS – Operational Data Store
+### ODS – Operational Data Store
 
 
-## DWH – Data WareHouse
-
-
-
-## ADM - Admin Database Management
+### DWH – Data WareHouse
 
 
 
+### ADM - Admin Database Management
 
 
-# 3. Conclusion
+
+
+
+## 3. Conclusion
 
 
 
