@@ -1,5 +1,7 @@
 # Developing an ETL project with SSIS using Call Center Dataset
 
+![image](https://github.com/mohamed06H/dsti-ml-book-ratings/assets/117094584/db4b1e23-be01-4156-a545-741258097a62)
+
 __Table of Contents__
 
 * [1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
