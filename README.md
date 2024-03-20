@@ -2,13 +2,13 @@
 
 __Table of Contents__
 
-[1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
-[2. ETL Processing - Pipeline Design](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#2-etl-processing---pipeline-design)
+* [1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
+* [2. ETL Processing - Pipeline Design](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#2-etl-processing---pipeline-design)
   - [STA – Staging Database](##STA–StagingDatabase)
   - [ODS – Operational Data Store](##ODS–OperationalDataStore)
   - [DWH – Data WareHouse](##DWH–DataWareHouse)
   - [ADM - Admin Database Management](##ADM-AdminDatabaseManagement)
-[3. Conclusion](#Conclusion)
+* [3. Conclusion](#Conclusion)
 
 # 1. Introduction
 
