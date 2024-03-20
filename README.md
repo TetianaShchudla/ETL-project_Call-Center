@@ -3,13 +3,13 @@
 ##### Table of Contents  
 * [1. Introduction](#Inroduction)  
 * [2. ETL Processing - Pipeline Design](#2.ETLProcessing-PipelineDesign)
-  - [STA – Staging Database](#STA–StagingDatabase)
-  - [ODS – Operational Data Store](#ODS–OperationalDataStore)
-  - [DWH – Data WareHouse](#DWH–DataWareHouse)
-  - [ADM - Admin Database Management](#ADM-AdminDatabaseManagement)
+  - [STA – Staging Database](##STA–StagingDatabase)
+  - [ODS – Operational Data Store](##ODS–OperationalDataStore)
+  - [DWH – Data WareHouse](##DWH–DataWareHouse)
+  - [ADM - Admin Database Management](##ADM-AdminDatabaseManagement)
 * [3. Conclusion](#Conclusion)
 
-## 1. Introduction
+# 1. Introduction
 
 Data must first be integrated into an IT system before it can be used and its value observed. This 
 implies that all data from multiple sources must be standardized and unified in order for other 
@@ -25,7 +25,7 @@ CSV files and lookup data, each with its specific role and relevance in uncoveri
 optimizing call center activities. 
 
 
-## 2. ETL Processing - Pipeline Design
+# 2. ETL Processing - Pipeline Design
 
 
 
@@ -37,20 +37,20 @@ optimizing call center activities.
 
 
 
-### ODS – Operational Data Store
+## ODS – Operational Data Store
 
 
-### DWH – Data WareHouse
-
-
-
-### ADM - Admin Database Management
+## DWH – Data WareHouse
 
 
 
+## ADM - Admin Database Management
 
 
-## 3. Conclusion
+
+
+
+# 3. Conclusion
 
 
 
