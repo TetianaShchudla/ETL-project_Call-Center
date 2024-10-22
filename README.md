@@ -39,8 +39,6 @@ __Lookup Data:__
 To enrich our analysis, we've included lookup data that pertains to employees and call types. These 
 datasets are useful to understand the workforce and categorizing call scenarios. 
 
-Employees 
-
 ## 2. ETL Processing - Pipeline Design
 
 Three phases will be taken to complete the pipeline: 
@@ -215,7 +213,6 @@ Server Management in order to recreate the tables.
 
 You can use Sequence Container components for running all the stages separately or one by one as 
 shown below: 
-
 
 ## 3. Conclusion
 
