@@ -34,10 +34,56 @@ ___CSV Files (Data YYYY):___
 These CSV files contain comprehensive call data for each respective year. The columns within these 
 files provide critical information that forms the basis for our analysis. 
 
+| Column Name      | Description                                           |
+|------------------|-------------------------------------------------------|
+| CallTimestamp     | Date & Time of call                                   |
+| Call Type         | Type of call                                         |
+| EmployeeID        | Employee unique ID                                   |
+| CallDuration      | Duration of call, in seconds                        |
+| WaitTime          | Wait time, in seconds                                |
+| CallAbandoned     | Was the call abandoned by the customer? (1 = Yes, 0 = No) |
+
 __Lookup Data:__
 
 To enrich our analysis, we've included lookup data that pertains to employees and call types. These 
 datasets are useful to understand the workforce and categorizing call scenarios. 
+
+_Employees_
+
+| Column Name    | Description                             |
+|----------------|-----------------------------------------|
+| EmployeeID     | Employee unique ID                      |
+| EmployeeName   | Employee full name                     |
+| Site           | Site name where the employee is working at |
+| ManagerName    | Employee's Manager                     |
+
+_Call Types_
+
+| Column Name    | Description                        |
+|----------------|------------------------------------|
+| CallTypeID     | Unique ID for Call Type           |
+| CallTypeLabel  | Call type label                   |
+
+__US States:__
+
+We've included a dataset containing information about U.S. states.
+
+| Column Name | Description                      |
+|-------------|----------------------------------|
+| StateCD     | 2-letter state code             |
+| Name        | Name of the state               |
+| Region      | US region name (East, West, etc.) |
+
+__Call Charges:__
+
+This dataset captures call charges, specifying the amount of money charged to customers per minute
+for each call type and year.
+
+| Column Name                | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| Call Type Key              | Unique ID for Call Type                                                    |
+| Call Type                  | Call type label                                                            |
+| Call Charges / Min (YYYY)  | The amount charged to a customer for each minute spent on the phone, for a specific year (YYYY) |
 
 ## 2. ETL Processing - Pipeline Design
 
