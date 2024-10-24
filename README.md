@@ -6,10 +6,10 @@
 
 * [1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
 * [2. ETL Processing - Pipeline Design](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#2-etl-processing---pipeline-design)
-*  -  2.1. [STA – Staging Database](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#sta--staging-database)
-*  -  2.2. [ODS – Operational Data Store](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#ods--operational-data-store)
-*  -  2.3. [DWH – Data Warehouse](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#dwh--data-warehouse)
-*  -  2.4. [ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
+  -  [2.1. STA – Staging Database](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#sta--staging-database)
+  -  [2.2. ODS – Operational Data Store](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#ods--operational-data-store)
+  -  [2.3. DWH – Data Warehouse](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#dwh--data-warehouse)
+  -  [2.4. ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
 * [3. Conclusion](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#3-conclusion)
 
 ## 1. Introduction
