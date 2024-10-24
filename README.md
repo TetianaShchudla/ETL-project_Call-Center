@@ -6,10 +6,10 @@
 
 * [1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
 * [2. ETL Processing - Pipeline Design](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#2-etl-processing---pipeline-design)
-  -  [2.1. STA – Staging Database](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#sta--staging-database)
-  -  [2.2. ODS – Operational Data Store](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#ods--operational-data-store)
-  -  [2.3. DWH – Data Warehouse](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#dwh--data-warehouse)
-  -  [2.4. ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
+  -  [STA – Staging Database](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#sta--staging-database)
+  -  [ODS – Operational Data Store](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#ods--operational-data-store)
+  -  [DWH – Data Warehouse](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#dwh--data-warehouse)
+  -  [ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
 * [3. Conclusion](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#3-conclusion)
 
 ## 1. Introduction
@@ -89,7 +89,7 @@ The "Technical_Rejects" database will be used to store the data as technical rej
 Data will be arranged in one fact table linked to numerous dimensions tables in the Data WareHouse area (DWH). Records that cannot be integrated into the schema are functionally rejected and placed in the "Functional_Rejects" table. Alternately, some fictitious relations could be made. 
 Each file will have its own STA and ODS packages.
 
-### 2.1. STA – Staging Database
+### STA – Staging Database
 
 The Staging Area is responsible for extracting raw data from the source and storing all the data. We want to accept all available data. 
 In all SSIS STA packages the important thing is to truncate the table when executing the package to avoid duplicates. This can be done in the _Control Flow Level_ creating a connection between Data Flow Task with an Execute SQL Task (used with corresponding database and TRUNCATE TABLE query). In additon to this there is a _Data Flow Level_, in which we can specify a Flat File Source (with a selected file), an OLE DB Destination (with the same STA database and a query to create a table) etc. 
@@ -146,7 +146,7 @@ _Data Flow for STA USStates:_
 
 ![image](https://github.com/TetianaShchudla/ETL-project-Call-Center/blob/main/Images/Data%20Flow%20for%20STA%20USStates.jpg)
 
-### 2.2. ODS – Operational Data Store
+### ODS – Operational Data Store
 
 The next phase in the pipeline involves importing practical (usable) data into the Operational Data Store (ODS). This necessitates converting the data into an accessible structure, along with the imperative tasks of refining and keeping consistency in the data by cleaning and standardize them. Any data that fails to meet the "quality criteria" will be excluded as a technical rejection. The output data must be consistent in data types and in values. Furthermore, we must guarantee that data can be effectively employed in queries, which could require restructuring and enhancing the 
 dataset.
@@ -222,7 +222,7 @@ We created a ChangeID identifier that we used in the following DWH step as a key
 
 We proceeded also by creating a __TechnicalRejects__ Table in which we register possible errors in the data conversions processes. 
 
-### 2.3. DWH – Data WareHouse
+### DWH – Data WareHouse
 
 ![image](https://github.com/TetianaShchudla/ETL-project-Call-Center/blob/main/Images/DWH%20%E2%80%93%20DATA%20WAREHOUSE.jpg)
 
@@ -244,7 +244,7 @@ __DWH_FactCalls__
 
 ![image](https://github.com/TetianaShchudla/ETL-project-Call-Center/blob/main/Images/DWH_FactCalls.jpg)
 
-### 2.4. ADM - Admin Database Management
+### ADM - Admin Database Management
 
 As mentioned before, during the ODS and DWH stages we created two tables called TechnicalRejects and FunctionalRejects. The TechnicalRejects table was created to record any errors arising from the transformations applied in the ODS stage. Whereas the FunctionalRejects table was created to record any errors from the FactCalls DWH stage. 
 
