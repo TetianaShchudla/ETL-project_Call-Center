@@ -2,7 +2,7 @@
 
 ![image](https://github.com/TetianaShchudla/CallCenterProject/blob/main/callcenter.png)
 
-**Table of Contents**
+## Table of Contents
 
 * [1. Introduction](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#1-introduction)  
 * [2. ETL Processing - Pipeline Design](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#2-etl-processing---pipeline-design)
