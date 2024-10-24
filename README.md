@@ -271,5 +271,4 @@ shown below:
 
 ## 3. Conclusion
 
-To summarize, we collected all tables in staging from Excel database. Then In ODS We carried various transformations for structuring , cleaning and filtering. We tried to move absurd data in ADM for Admins verification. 
-Finally we moved desired data in required pattern in DWH. We have included Sequence container to run packages in correct sequence and segregating in allocated groups.
+The project successfully structured and filtered data from various sources, allowing for meaningful analysis of call center operations. By organizing the ETL process into clear stages and utilizing SSIS packages effectively, the team aimed to enhance decision-making and operational efficiency through insightful data analysis.
