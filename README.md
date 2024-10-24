@@ -146,7 +146,7 @@ _Data Flow for STA USStates:_
 
 ![image](https://github.com/TetianaShchudla/ETL-project-Call-Center/blob/main/Images/Data%20Flow%20for%20STA%20USStates.jpg)
 
-### ODS – Operational Data Store
+## ODS – Operational Data Store
 
 The next phase in the pipeline involves importing practical (usable) data into the Operational Data Store (ODS). This necessitates converting the data into an accessible structure, along with the imperative tasks of refining and keeping consistency in the data by cleaning and standardize them. Any data that fails to meet the "quality criteria" will be excluded as a technical rejection. The output data must be consistent in data types and in values. Furthermore, we must guarantee that data can be effectively employed in queries, which could require restructuring and enhancing the 
 dataset.
