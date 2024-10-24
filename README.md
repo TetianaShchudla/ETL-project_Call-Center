@@ -1,4 +1,4 @@
-# Developing an ETL project with SSIS using Call Center Dataset
+# ETL project with SSIS using Call Center Dataset
 
 ![image](https://github.com/TetianaShchudla/ETL-project_Call-Center/blob/main/Images/callcenter.png)
 
