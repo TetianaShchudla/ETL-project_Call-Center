@@ -12,7 +12,7 @@
   - [ADM - Admin Database Management](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#adm---admin-database-management)
 * [3. Conclusion](https://github.com/TetianaShchudla/CallCenterProject/blob/main/README.md#3-conclusion)
 
-## :laughing: 1. Introduction
+## 1. Introduction
 
 Data must first be integrated into an IT system before it can be used and its value observed. This implies that all data from multiple sources must be standardized and unified in order for other programs to utilize them. Implementing a data warehouse is one approach to accomplish this. 
 In this project, we are going to design and implement a Data Warehouse with calls data analysis of a call center. For this, we will use __SQL Server__ and __SSIS__. 
