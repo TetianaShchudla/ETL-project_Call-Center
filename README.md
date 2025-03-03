@@ -190,7 +190,7 @@ Using __Derived Column__ functions we were able to:
 
 - Split EmployeeName from STA_Employees into EmployeeFirstName and EmployeeLastName. 
 - Split ManagerName from STA_Employees into ManagerFirstName and ManagerLastName. 
-- Split EmployeeName from STA_Employees into StateCode and City.
+- Split StateSD from STA_Employees into StateCode and City.
 
 Using __Lookup function__, we were able to join USStates table in order to get also the Region column. 
 Using __Data Conversions__ functions, we were able to adjust all the data types of all columns as needed. 
