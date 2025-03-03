@@ -167,7 +167,7 @@ Using __Derived Column__ functions, we were able to:
 - Extract from CallTimestamp: CallDate, CallTime, CallYear. 
 - Extract the column SLAStatus from WaitTime. 
 - Create a ChangeID identifier that we used in the following DWH step as a key.
-- 
+
 Using __Data Conversions__ functions, we were able to adjust all the data types of all columns as needed. 
 We proceeded also by creating a __TechnicalRejects__ Table in which register possible errors in the data 
 conversions processes. 
