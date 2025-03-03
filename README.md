@@ -226,7 +226,9 @@ We proceeded also by creating a __TechnicalRejects__ Table in which we register 
 
 ![image](https://github.com/TetianaShchudla/ETL-project-Call-Center/blob/main/Images/DWH%20%E2%80%93%20DATA%20WAREHOUSE.jpg)
 
-At the DWH stage, three dimension tables were created, including creating technical keys in each table. DimCallCharge with CallChargeKey, Dim Employees with EmployeeKey and DimDate using SQL query with DateKey. In addition, a fact table FactCalls was created in the DWH FactCalls package. Within this package possible errors which could happen in the future were redirected and gathered in a new FunctionalRejects table in the ADM database. Examples of those tables are presented below.
+At the DWH stage, three dimension tables were created, including creating technical keys in each table. DimCallCharge with CallChargeKey, Dim Employees with EmployeeKey and DimDate using SQL query with DateKey. In addition, a fact table FactCalls was created in the DWH FactCalls package. Within this package possible errors which could happen in the future were redirected and gathered in a new FunctionalRejects table in the ADM database. 
+
+Examples of all tables at the DWH stage are presented below.
 
 __DWH_DimCallCharges__ 
 
